@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Open+Sans:400,600');
+
+
+
+$mikesFavoriteColor: pink;
+h1, h2, h3, h4, h5 {
+  font-family: "Merriweather Sans", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+a.black-link {
+  color :black;
+  &:hover {
+    color: $mikesFavoriteColor;
+    text-decoration: none;
+  }
+}
+
+.more-button {
+  width: 400px;
+  border: 2px solid orange;
+}
+.article-title {
+  
+}
+
+.logo-container {
+  max-width: 1300px;
+  margin-top: 80px;
+}
+
+.top-images {
+  img {
+    width: 100%;
+  }
+
+  .like-and-category {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+}
+
+.newsletter-form-container {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+
+.featured-container {
+  max-width: 1200px;   
+}
+
+.category-3-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sidebar-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+// .slant-top:before{
+//   background: #6c757d;
+// 	content: "";
+// 	display: block;
+// 	float: none;
+// 	height: 470px;
+// 	margin: 0 0 -370px;
+// 	position: relative;
+// 	-ms-transform: skew(0deg,3deg);
+// 	-webkit-transform: skew(0deg,3deg);
+// 	transform: skew(0deg,3deg);
+// 	width: 100%;
+// 	z-index: -1;
+
+// }
